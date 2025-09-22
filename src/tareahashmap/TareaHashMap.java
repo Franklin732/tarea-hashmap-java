@@ -30,7 +30,7 @@ public class TareaHashMap {
 
         // 4. verificar si existe la clave "telefono"
         if (informacionPersonal.containsKey("telefono") == false) {
-            // 4.1. si no existe, agregar la clave "telefono" con un numero real
+            // si no existe, agregar la clave "telefono" con un numero real
             informacionPersonal.put("telefono", "0989406777");
         }
 
@@ -38,7 +38,7 @@ public class TareaHashMap {
         informacionPersonal.remove("edad");
 
         // 6. mostrar el contenido final del hashmap de forma ordenada
-        System.out.println("=== información personal final ===");
+        System.out.println("=== informacion personal final ===");
         System.out.println("nombre: " + informacionPersonal.get("nombre"));
         System.out.println("ciudad: " + informacionPersonal.get("ciudad"));
         System.out.println("profesion: " + informacionPersonal.get("profesion"));
